@@ -7,8 +7,7 @@ Plug 'preservim/nerdtree'
 Plug 'ap/vim-css-color'
 " COC - Auto Complete
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-" Onedark color scheme
-Plug 'joshdick/onedark.vim'
+Plug 'dracula/vim', {'name':'dracula'}
 " Install fugitive
 Plug 'tpope/vim-fugitive'
 call plug#end()
@@ -129,4 +128,4 @@ vnoremap ; :
 nnoremap <leader><space> :noh<cr>: call clearmatches()<cr>
 
 "Set color scheme
-colorscheme onedark
+colorscheme dracula
