@@ -1,0 +1,21 @@
+[user]
+	email = 33244107+zeeplo@users.noreply.github.com
+	name = William Ye
+[pull]
+	rebase = true
+[github]
+	user = zeeplo
+[init]
+	defaultBranch = main
+[color]
+        ui = true
+[format]
+        pretty = format:%C(yellow)%h%x09%C(cyan)%ar%x09%C(magenta)%an  %C(red)%d% C(green)%s 
+
+[core]
+	editor = nvim
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
