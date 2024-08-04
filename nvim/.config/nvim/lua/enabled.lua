@@ -25,7 +25,7 @@ local M = {
 	lualine = true,
 	focus = false,
 	dashboard = true,
-	noice = true,
+	noice = false,
 	notify = true, -- false
 	barbar = true,
 	--editor

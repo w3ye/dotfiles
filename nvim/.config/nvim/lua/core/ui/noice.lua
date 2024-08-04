@@ -43,6 +43,7 @@ local routes = {
 
 local M = {
 	"folke/noice.nvim",
+	enabled = _G.enabled.noice,
 	lazy = false,
 	config = function(_, opts)
 		require("noice").setup(opts)
@@ -78,7 +79,6 @@ local M = {
 		},
 		routes = routes,
 	},
-	enabled = _G.enabled.noice,
 	keys = {
 		{
 			"<leader>nl",
