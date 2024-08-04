@@ -1,4 +1,9 @@
-local setup = function()
+local M = {
+	"lewis6991/gitsigns.nvim",
+	enabled = _G.enabled.gitsigns,
+}
+
+M.config = function()
 	require("gitsigns").setup({
 		signs = {
 			add = { text = "│" },
@@ -89,11 +94,5 @@ local setup = function()
 		end,
 	})
 end
-
-local M = {
-	"lewis6991/gitsigns.nvim",
-	enabled = _G.enabled.gitsigns,
-	config = setup,
-}
 
 return M
