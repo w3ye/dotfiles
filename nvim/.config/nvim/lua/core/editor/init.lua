@@ -7,17 +7,6 @@ local flash = require("core.editor.flash")
 local minor_setup = {
 	"gpanders/editorconfig.nvim",
 	{
-		"ethanholz/nvim-lastplace",
-		enabled = enabled.lastplace,
-		config = function()
-			require("nvim-lastplace").setup({
-				lastplace_ignore_buftype = { "quickfix", "nofile", "help" },
-				lastplace_ignore_filetype = { "gitcommit", "gitrebase", "svn", "hgcommit" },
-				lastplace_open_folds = true,
-			})
-		end,
-	},
-	{
 		"folke/which-key.nvim",
 		enabled = enabled.which_key,
 		event = "VeryLazy",

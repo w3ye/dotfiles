@@ -29,13 +29,14 @@ local M = {
 	noice = true,
 	notify = true, -- false
 	--editor
-	lastplace = true,
+	lastplace = false,
 	flit = true,
 	flash = true,
 	which_key = false,
 	harpofalse = true,
 	bqf = true,
 	formatter = true,
+	bookmarks = true,
 	-- lang
 	go = false,
 	neotetst = false, -- false
