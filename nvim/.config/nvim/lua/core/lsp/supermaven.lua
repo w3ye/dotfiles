@@ -7,9 +7,9 @@ local M = {
 		end,
 		opts = {
 			keymaps = {
-				accept_suggestion = "<C-k>",
+				accept_suggestion = "<C-o>",
 				clear_suggestion = "<C-]>",
-				accept_word = "<C-j>",
+				accept_word = "<C-i>",
 			},
 			color = {
 				-- suggestion_color = "#ffffff",
