@@ -1,6 +1,7 @@
 local M = {
 	"s1n7ax/nvim-window-picker",
 	name = "window-picker",
+	enabled = _G.enabled.window_picker,
 	version = "v2.*",
 	config = function(_, opts)
 		require("window-picker").setup(opts)

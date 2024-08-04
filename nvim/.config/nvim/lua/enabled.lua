@@ -29,6 +29,7 @@ local M = {
 	notify = true, -- false
 	barbar = true,
 	twilight = false,
+	window_picker = true,
 	--editor
 	lastplace = false,
 	flit = true,
