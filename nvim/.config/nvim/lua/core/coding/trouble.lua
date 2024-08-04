@@ -1,5 +1,6 @@
 local M = {
 	"folke/trouble.nvim",
+	enabled = _G.enabled.trouble,
 	dependencies = { "nvim-tree/nvim-web-devicons" },
 	keys = {
 		{
