@@ -1,5 +1,6 @@
 return {
 	"folke/twilight.nvim",
+	enabled = _G.enabled.twilight,
 	opts = {
 		context = 15,
 	},

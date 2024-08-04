@@ -28,6 +28,7 @@ local M = {
 	noice = false,
 	notify = true, -- false
 	barbar = true,
+	twilight = false,
 	--editor
 	lastplace = false,
 	flit = true,
