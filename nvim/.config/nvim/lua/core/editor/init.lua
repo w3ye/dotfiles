@@ -3,26 +3,13 @@ local bookmarks = require("core.editor.bookmarks")
 local oil = require("core.editor.oil")
 local undotree = require("core.editor.undotree")
 local flash = require("core.editor.flash")
+local whichkey = require("core.editor.whichkey")
+local lastplace = require("core.editor.lastplace")
 
 local minor_setup = {
 	"gpanders/editorconfig.nvim",
-	{
-		"folke/which-key.nvim",
-		enabled = enabled.which_key,
-		event = "VeryLazy",
-		init = function()
-			vim.o.timeout = true
-			vim.o.timeoutlen = 500
-		end,
-		config = function()
-			local wk = require("which-key")
-			wk.register({
-				t = {
-					name = "Tree & test",
-				},
-			}, { prefix = "<leader>" })
-		end,
-	},
+	whichkey,
+	lastplace,
 	{
 		"ThePrimeagen/harpoon",
 		enabled = enabled.harpoon,
