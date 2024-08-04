@@ -1,6 +1,6 @@
 local M = {
 	"ethanholz/nvim-lastplace",
-	enabled = enabled.lastplace,
+	enabled = _G.enabled.lastplace,
 	config = function()
 		require("nvim-lastplace").setup({
 			lastplace_ignore_buftype = { "quickfix", "nofile", "help" },

@@ -37,6 +37,7 @@ local M = {
 	bqf = true,
 	formatter = true,
 	bookmarks = true,
+	fzf = true,
 	-- lang
 	go = false,
 	neotetst = false, -- false

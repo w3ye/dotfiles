@@ -1,6 +1,6 @@
 local M = {
 	"kevinhwang91/nvim-bqf",
-	enabled = enabled.bqf,
+	enabled = _G.enabled.bqf,
 }
 
 return M
