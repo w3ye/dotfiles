@@ -30,6 +30,7 @@ local M = {
 	barbar = true,
 	twilight = false,
 	window_picker = true,
+	zen = true,
 	--editor
 	lastplace = false,
 	flit = true,
