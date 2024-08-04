@@ -19,6 +19,7 @@ local M = {
 	treesitter = true,
 	telescope = true,
 	project = true,
+	neotest = false,
 	-- ui
 	blankline = false,
 	mini = false,
