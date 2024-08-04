@@ -5,19 +5,13 @@ local undotree = require("core.editor.undotree")
 local flash = require("core.editor.flash")
 local whichkey = require("core.editor.whichkey")
 local lastplace = require("core.editor.lastplace")
+local harpoon = require("core.editor.harpoon")
 
 local minor_setup = {
 	"gpanders/editorconfig.nvim",
 	whichkey,
 	lastplace,
-	{
-		"ThePrimeagen/harpoon",
-		enabled = enabled.harpoon,
-		keys = {
-			{ "<leader>hm", '<cmd>lua require("harpoon.mark").add_file()<cr>', desc = "harpoon mark" },
-			{ "<leader>ht", '<cmd>lua require("harpoon.ui").toggle_quick_menu()<cr>', desc = "harpoon toggle" },
-		},
-	},
+	harpoon,
 	{
 		"kevinhwang91/nvim-bqf",
 		enabled = enabled.bqf,
