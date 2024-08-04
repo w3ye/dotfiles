@@ -1,5 +1,6 @@
 local M = {
 	"tomasky/bookmarks.nvim",
+	enabled = _G.enabled.bookmarks,
 	event = "VimEnter",
 	config = function()
 		require("bookmarks").setup({
