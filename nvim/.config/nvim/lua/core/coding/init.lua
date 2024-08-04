@@ -7,7 +7,7 @@ local enabled = _G.enabled
 local lspsaga = require("core.coding.lspsaga")
 local git = require("core.coding.git")
 -- local dap = require("core.coding.debugger.init")
-local guard = require("core.coding.guard")
+local formatter = require("core.coding.formatter")
 local treesitter = require("core.coding.treesitter")
 local telescope = require("core.coding.telescope")
 local dropbar = require("core.coding.breadcrumbs")
@@ -49,7 +49,7 @@ local M = {
 		},
 	},
 	-- dap,
-	guard,
+	formatter,
 	treesitter,
 	telescope,
 	dropbar,

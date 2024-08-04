@@ -1,7 +1,7 @@
 local M = {
 	{
 		"stevearc/conform.nvim",
-		enabled = _G.enabled.conform_formatter,
+		enabled = _G.enabled.formatter,
 		config = function(_, opts)
 			require("conform").setup(opts)
 		end,
@@ -21,21 +21,6 @@ local M = {
 			format_after_save = true,
 		},
 	},
-	-- {
-	-- 	"nvimdev/guard.nvim",
-	-- 	-- Builtin configuration, optional
-	-- 	dependencies = {
-	-- 		"nvimdev/guard-collection",
-	-- 	},
-	-- 	config = function()
-	-- 		local ft = require("guard.filetype")
-	-- 		ft("typescript,javascript,typescriptreact"):fmt("prettier")
-	-- 		require("guard").setup({
-	-- 			fmt_on_save = true,
-	-- 			lsp_as_default_formatter = false,
-	-- 		})
-	-- 	end,
-	-- },
 }
 
 return M
