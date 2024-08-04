@@ -22,7 +22,7 @@ local M = {
 	neotest = false,
 	-- ui
 	blankline = false,
-	mini = false,
+	mini = true,
 	lualine = false,
 	focus = false,
 	dashboard = true,
