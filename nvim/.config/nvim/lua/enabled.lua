@@ -18,6 +18,7 @@ local M = {
 	dap = false, -- false
 	treesitter = true,
 	telescope = true,
+	project = true,
 	-- ui
 	blankline = false,
 	mini = false,
