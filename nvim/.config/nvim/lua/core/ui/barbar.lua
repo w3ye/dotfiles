@@ -2,6 +2,7 @@ local opts = { noremap = true, silent = true }
 local M = {
 	"romgrk/barbar.nvim",
 	event = "VimEnter",
+	enabled = _G.enabled.barbar,
 	dependencies = "nvim-tree/nvim-web-devicons",
 	config = function()
 		require("barbar").setup({

@@ -28,6 +28,7 @@ local M = {
 	dashboard = true,
 	noice = true,
 	notify = true, -- false
+	barbar = true,
 	--editor
 	lastplace = false,
 	flit = true,
