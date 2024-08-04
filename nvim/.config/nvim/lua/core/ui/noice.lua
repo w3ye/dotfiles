@@ -39,10 +39,19 @@ local routes = {
 		},
 		opts = { skip = true },
 	},
-	filter = {
-		event = "msg_show",
-		min_height = 10,
-		["not"] = { kind = { "search_count", "echo" } },
+	{
+		filter = {
+			event = "msg_show",
+			min_height = 10,
+			["not"] = { kind = { "search_count", "echo" } },
+		},
+	},
+	{
+		filter = {
+			event = "notify.info",
+			kind = "",
+		},
+		opts = { skip = true },
 	},
 }
 
@@ -85,10 +94,10 @@ local M = {
 		routes = routes,
 		messages = {
 			enabled = true, -- enables the Noice messages UI
-			view = "messages", -- default view for messages
-			view_error = "messages", -- view for errors
-			view_warn = "messages", -- view for warnings
-			view_history = "messages", -- view for :messages
+			view = false, -- default view for messages
+			view_error = false, -- view for errors
+			view_warn = false, -- view for warnings
+			view_history = false, -- view for :messages
 			view_search = "virtualtext", -- view for search count messages. Set to `false` to disable
 		},
 	},
