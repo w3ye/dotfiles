@@ -21,7 +21,6 @@ local M = {
 	project = true,
 	neotest = false,
 	-- ui
-	blankline = false,
 	mini = true,
 	lualine = false,
 	focus = false,

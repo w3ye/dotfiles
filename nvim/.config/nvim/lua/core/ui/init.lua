@@ -1,5 +1,4 @@
 local themes = require("core.ui.themes")
-local blankline = require("core.ui.blankline")
 local mini = require("core.ui.mini")
 local lualine = require("core.ui.lualine")
 local focus = require("core.ui.focus")
@@ -14,7 +13,6 @@ local zen = require("core.ui.zen")
 
 local M = {
 	themes,
-	blankline,
 	mini,
 	lualine,
 	"MunifTanjim/nui.nvim",
