@@ -46,6 +46,7 @@ local M = {
 	lsp = true,
 	tstools = true,
 	supermaven = true,
+	maasha = true,
 }
 
 return M
