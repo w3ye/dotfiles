@@ -1,0 +1,16 @@
+git:
+  branchLogCmd: "git log --color=always --abbrev-commit --decorate --date=relative --pretty=medium --oneline {{branchName}} --"
+  allBranchesLogCmd: "git log --all --color=always --abbrev-commit --decorate --date=relative --pretty=medium "
+  log:
+    showGraph: "when-maximised"
+os:
+  editCommand: "nvim" # see 'Configuring File Editing' section
+customCommands:
+  - key: "w"
+    prompts:
+      - type: "input"
+        title: "git commit skip hooks"
+        initialValue: ""
+    command: git commit -m "{{index .PromptResponses 0}}" --no-verify
+    context: "files"
+    subprocess: true
