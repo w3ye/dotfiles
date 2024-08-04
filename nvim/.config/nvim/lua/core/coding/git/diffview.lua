@@ -1,5 +1,26 @@
--- Lua
-local setup = function()
+local M = {
+	"sindrets/diffview.nvim",
+	enabled = _G.enabled.diffview,
+	keys = {
+		{
+			"<leader>dv",
+			"<cmd>DiffviewOpen<cr>",
+			desc = "Open diff",
+		},
+		{
+			"<leader>dc",
+			"<cmd>DiffviewClose<cr>",
+			desc = "Close diff",
+		},
+		{
+			"<leader>dh",
+			"<cmd>DiffviewFileHistory %<cr>",
+			desc = "diff history",
+		},
+	},
+}
+
+M.config = function()
 	local actions = require("diffview.actions")
 	require("diffview").setup({
 		diff_binaries = false, -- Show diffs for binaries
@@ -491,28 +512,5 @@ local setup = function()
 		},
 	})
 end
-
-local M = {
-	"sindrets/diffview.nvim",
-	config = setup,
-	enabled = _G.enabled.diffview,
-	keys = {
-		{
-			"<leader>dv",
-			"<cmd>DiffviewOpen<cr>",
-			desc = "Open diff",
-		},
-		{
-			"<leader>dc",
-			"<cmd>DiffviewClose<cr>",
-			desc = "Close diff",
-		},
-		{
-			"<leader>dh",
-			"<cmd>DiffviewFileHistory %<cr>",
-			desc = "diff history",
-		},
-	},
-}
 
 return M
