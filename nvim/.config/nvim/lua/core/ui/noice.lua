@@ -39,6 +39,11 @@ local routes = {
 		},
 		opts = { skip = true },
 	},
+	filter = {
+		event = "msg_show",
+		min_height = 10,
+		["not"] = { kind = { "search_count", "echo" } },
+	},
 }
 
 local M = {
@@ -78,6 +83,14 @@ local M = {
 			lsp_doc_border = false, -- add a border to hover docs and signature help
 		},
 		routes = routes,
+		messages = {
+			enabled = true, -- enables the Noice messages UI
+			view = "messages", -- default view for messages
+			view_error = "messages", -- view for errors
+			view_warn = "messages", -- view for warnings
+			view_history = "messages", -- view for :messages
+			view_search = "virtualtext", -- view for search count messages. Set to `false` to disable
+		},
 	},
 	keys = {
 		{
@@ -101,11 +114,4 @@ local M = {
 	},
 }
 
--- vim.keymap.set("c", "<leader>nc", function()
--- 	require("noice").redirect(vim.fn.getcmdline())
--- end)
---
--- vim.keymap.set("n", "<leader>u", function()
--- 	require("notify").dismiss({ silent = true, pending = true })
--- end)
 return M
