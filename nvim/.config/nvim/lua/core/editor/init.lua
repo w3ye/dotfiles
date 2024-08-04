@@ -6,16 +6,14 @@ local flash = require("core.editor.flash")
 local whichkey = require("core.editor.whichkey")
 local lastplace = require("core.editor.lastplace")
 local harpoon = require("core.editor.harpoon")
+local bqf = require("core.editor.bqf")
 
 local minor_setup = {
 	"gpanders/editorconfig.nvim",
 	whichkey,
 	lastplace,
 	harpoon,
-	{
-		"kevinhwang91/nvim-bqf",
-		enabled = enabled.bqf,
-	},
+	bqf,
 	{
 		"junegunn/fzf",
 		build = function()
