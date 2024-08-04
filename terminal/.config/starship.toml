@@ -1,0 +1,70 @@
+add_newline = false
+command_timeout = 10000000000
+
+
+format = """
+$directory$git_branch$git_commit$git_state$git_status$character"""
+
+# right_format = """$git_status$time$battery"""
+
+[character]
+success_symbol = "[➜](bold green) "
+error_symbol = "[➜](bold red) "
+
+[battery]
+full_symbol = " "
+charging_symbol = " "
+empty_symbol = " "
+
+# Battery low
+[[battery.display]]
+threshold = 20
+style = "bold red"
+discharging_symbol = " "
+
+# Battery discharge warning
+[[battery.display]]
+threshold = 50
+style = "bold yellow"
+discharging_symbol = " "
+
+# Battery discharge healthy
+[[battery.display]]
+threshold = 100
+style = "bold green"
+discharging_symbol = " "
+
+[directory]
+truncation_length = 5
+style = "bold white"
+format = "[$path]($style)[$read_only]($read_only_style) "
+
+[git_branch]
+style = "bold fg:134"
+format = "[$symbol$branch]($style) "
+
+[time]
+disabled = false
+format = "[$time](white) "
+time_format = "%R"
+
+[nodejs]
+format = "[$symbol($version )]($style)"
+
+[golang]
+format = "[$symbol($version )]($style)"
+
+[cmd_duration]
+style = "grey"
+format = "[$duration]($style) "
+
+[git_status]
+format = '([$all_status$ahead_behind]()) '
+conflicted = "💩"
+ahead = "🎈"
+behind = "🐝"
+stashed = "💵"
+untracked = "😯"
+modified = "🐧"
+diverged = "🖖"
+staged = "💃"
