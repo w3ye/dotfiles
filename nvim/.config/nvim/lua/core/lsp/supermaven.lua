@@ -1,15 +1,15 @@
 local M = {
 	{
 		"supermaven-inc/supermaven-nvim",
-        enabled = _G.enabled.supermaven,
+		enabled = _G.enabled.supermaven,
 		config = function(_, opts)
 			require("supermaven-nvim").setup(opts)
 		end,
 		opts = {
 			keymaps = {
-				accept_suggestion = "<M-l>",
+				accept_suggestion = "<C-l>",
 				clear_suggestion = "<C-]>",
-				accept_word = "<M-k>",
+				accept_word = "<C-j>",
 			},
 			color = {
 				-- suggestion_color = "#ffffff",
