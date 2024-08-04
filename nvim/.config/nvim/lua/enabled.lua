@@ -43,7 +43,6 @@ local M = {
 	neotetst = false, -- false
 	rest_client = false,
 	-- lsp
-	cmp = true,
 	lsp = true,
 	tstools = true,
 	supermaven = true,

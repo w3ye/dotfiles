@@ -20,7 +20,6 @@ local M = {
 
 			cmp.setup({
 				sources = cmp.config.sources({
-					{ name = "copilot" },
 					{ name = "supermaven" },
 					{ name = "luasnip" }, -- For luasnip users.
 					{ name = "nvim_lua" },
@@ -73,7 +72,6 @@ local M = {
 						maxwidth = 50,
 						menu = {
 							Supermaven = "",
-							copilot = "",
 							buffer = "",
 							-- nvim_lsp = "[lsp]",
 							-- nvim_lua = "[lua api]",
