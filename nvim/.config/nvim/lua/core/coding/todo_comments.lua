@@ -1,4 +1,9 @@
-local setup = function()
+local M = {
+	"folke/todo-comments.nvim",
+	enabled = _G.enabled.todo_comments,
+}
+
+M.config = function()
 	require("todo-comments").setup({
 		signs = true, -- show icons in the signs column
 		sign_priority = 8, -- sign priority
@@ -57,10 +62,5 @@ local setup = function()
 		},
 	})
 end
-local M = {
-	"folke/todo-comments.nvim",
-	config = setup,
-	enabled = _G.enabled.todo_comments,
-}
 
 return M
