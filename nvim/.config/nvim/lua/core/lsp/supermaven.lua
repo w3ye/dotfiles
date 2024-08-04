@@ -7,7 +7,7 @@ local M = {
 		end,
 		opts = {
 			keymaps = {
-				accept_suggestion = "<C-l>",
+				accept_suggestion = "<C-k>",
 				clear_suggestion = "<C-]>",
 				accept_word = "<C-j>",
 			},
