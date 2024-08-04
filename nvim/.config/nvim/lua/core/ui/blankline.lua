@@ -1,5 +1,6 @@
 local M = {
 	"lukas-reineke/indent-blankline.nvim",
+	enabled = _G.enabled.blankline,
 	main = "ibl",
 	config = function()
 		local highlight = {
@@ -26,7 +27,6 @@ local M = {
 
 		require("ibl").setup({ indent = { highlight = highlight } })
 	end,
-	enabled = _G.enabled.blankline,
 }
 
 return M
