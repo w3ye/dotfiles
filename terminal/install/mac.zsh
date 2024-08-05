@@ -6,7 +6,7 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 # Install homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-TERM_PROGRAMS=( starship fzf bat exa fd rg z nvim nvm lazygit lazydocker )
+TERM_PROGRAMS=( starship fzf bat exa fd rg z nvm lazygit lazydocker )
 
 for program in ${TERM_PROGRAMS[@]}; do
     echo "Installing $program\n"
