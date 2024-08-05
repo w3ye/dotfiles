@@ -6,7 +6,7 @@ local trouble = require("core.coding.trouble")
 local enabled = _G.enabled
 local lspsaga = require("core.coding.lspsaga")
 local git = require("core.coding.git")
--- local dap = require("core.coding.debugger.init")
+local dap = require("core.coding.debugger.init")
 local formatter = require("core.coding.formatter")
 local treesitter = require("core.coding.treesitter")
 local telescope = require("core.coding.telescope")
@@ -47,7 +47,7 @@ local M = {
 			},
 		},
 	},
-	-- dap,
+	dap,
 	formatter,
 	treesitter,
 	telescope,

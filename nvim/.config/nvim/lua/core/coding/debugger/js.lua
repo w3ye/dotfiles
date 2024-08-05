@@ -33,6 +33,13 @@ M.adapter_setup = function(dap)
 				processId = require("dap.utils").pick_process,
 				cwd = "${workspaceFolder}",
 			},
+			{
+				type = "pwa-node",
+				request = "launch",
+				name = "Launch file",
+				program = "${file}",
+				cwd = "${workspaceFolder}",
+			},
 		}
 	end
 end
