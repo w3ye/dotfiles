@@ -27,3 +27,5 @@ mac_install:
 	@stow mac_config terminal nvim
 
 	brew update
+
+	@make default_shell
