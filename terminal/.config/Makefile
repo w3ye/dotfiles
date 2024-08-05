@@ -21,11 +21,6 @@ mac_install:
 	@echo "\nInstalling kitty\n"
 	brew install --cask kitty
 
-	@echo "\ninstalling dotfiles\n"
-	@git clone https://github.com/w3ye/dotfiles.git ~/.dotfiles
-	@cd ~/.dotfiles
-	@stow mac_config terminal nvim
-
 	brew update
 
 	@make default_shell
