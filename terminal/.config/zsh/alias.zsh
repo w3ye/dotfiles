@@ -6,5 +6,5 @@ alias lg="lazygit"
 alias ld="lazydocker"
 
 # eza
-alias ls="eza -ls"
+alias ls="eza -l"
 
