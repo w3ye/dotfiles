@@ -3,7 +3,7 @@ command_timeout = 10000000000
 
 
 format = """
-$directory$git_branch$git_commit$git_state$git_status$character"""
+$character$directory$git_branch$git_commit$git_state$git_status"""
 
 [character]
 success_symbol = "[➜](bold green) "
@@ -34,7 +34,7 @@ discharging_symbol = " "
 
 [directory]
 truncation_length = 5
-style = "bold white"
+style = "bold cyan"
 format = "[$path]($style)[$read_only]($read_only_style) "
 
 [git_branch]
