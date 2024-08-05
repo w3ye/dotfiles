@@ -5,8 +5,6 @@ command_timeout = 10000000000
 format = """
 $directory$git_branch$git_commit$git_state$git_status$character"""
 
-# right_format = """$git_status$time$battery"""
-
 [character]
 success_symbol = "[➜](bold green) "
 error_symbol = "[➜](bold red) "
@@ -60,11 +58,11 @@ format = "[$duration]($style) "
 
 [git_status]
 format = '([$all_status$ahead_behind]()) '
-conflicted = "💩"
-ahead = "🎈"
-behind = "🐝"
-stashed = "💵"
-untracked = "😯"
-modified = "🐧"
-diverged = "🖖"
-staged = "💃"
+# conflicted = "💩"
+# ahead = "🎈"
+# behind = "🐝"
+# stashed = "💵"
+# untracked = "😯"
+# modified = "🐧"
+# diverged = "🖖"
+# staged = "💃"
