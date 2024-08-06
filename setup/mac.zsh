@@ -9,7 +9,7 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 TERM_PROGRAMS=( starship fzf bat exa fd rg z nvm lazygit lazydocker )
 
 for program in ${TERM_PROGRAMS[@]}; do
-    echo "Installing $program\n"
+    echo "Installing $program...\n"
     brew install $program
 done
 
