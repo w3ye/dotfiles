@@ -156,10 +156,10 @@ keybinds {
         bind "Alt n" { NewPane; }
         bind "Alt i" { MoveTab "Left"; }
         bind "Alt o" { MoveTab "Right"; }
-        // bind "Alt a" "Alt Left" { MoveFocusOrTab "Left"; }
-        // bind "Alt d" "Alt Right" { MoveFocusOrTab "Right"; }
-        // bind "Alt s" "Alt Down" { MoveFocus "Down"; }
-        // bind "Alt w" "Alt Up" { MoveFocus "Up"; }
+        bind "Alt a" "Alt Left" { MoveFocusOrTab "Left"; }
+        bind "Alt d" "Alt Right" { MoveFocusOrTab "Right"; }
+        bind "Alt s" "Alt Down" { MoveFocus "Down"; }
+        bind "Alt w" "Alt Up" { MoveFocus "Up"; }
         bind "Alt =" "Alt +" { Resize "Increase"; }
         bind "Alt -" { Resize "Decrease"; }
         bind "Alt [" { PreviousSwapLayout; }
@@ -290,7 +290,7 @@ plugins {
 // The name of the default layout to load on startup
 // Default: "default"
 //
-// default_layout "compact"
+default_layout "compact"
 
 // Choose the mode that zellij uses when starting up.
 // Default: normal
@@ -304,7 +304,7 @@ plugins {
 //   - true (default)
 //   - false
 //
-// mouse_mode false
+mouse_mode true
 
 // Configure the scroll back buffer size
 // This is the number of lines zellij stores for each pane in the scroll back
