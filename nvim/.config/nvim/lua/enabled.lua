@@ -14,14 +14,14 @@ local M = {
 	gitsigns = true,
 	diffview = true,
 	lazygit = true,
-	dap = true,
+	dap = false,
 	treesitter = true,
 	telescope = true,
 	project = true,
 	neotest = false,
 	-- ui
 	mini = true,
-	lualine = true,
+	lualine = false,
 	focus = false,
 	dashboard = true,
 	noice = true,
@@ -46,7 +46,6 @@ local M = {
 	lsp = true,
 	tstools = true,
 	supermaven = true,
-	maasha = true,
 }
 
 return M
