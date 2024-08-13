@@ -10,7 +10,6 @@ local dap = require("core.coding.debugger.init")
 local formatter = require("core.coding.formatter")
 local treesitter = require("core.coding.treesitter")
 local telescope = require("core.coding.telescope")
-local test = require("core.coding.test")
 local project = require("core.coding.project")
 
 local M = {
@@ -51,7 +50,6 @@ local M = {
 	formatter,
 	treesitter,
 	telescope,
-	test,
 	project,
 }
 

@@ -8,11 +8,6 @@ local M = {
 	"echasnovski/mini.nvim",
 	enabled = _G.enabled.mini,
 	config = function()
-		require("mini.indentscope").setup({
-			symbol = "│",
-			options = { try_as_border = true },
-		})
-		vim.cmd("hi MiniIndentscopeSymbol guifg=#C678DD")
 		require("mini.bufremove").setup({
 			-- Whether to set Vim's settings for buffers (allow hidden buffers)
 			set_vim_settings = true,

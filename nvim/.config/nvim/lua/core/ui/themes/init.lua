@@ -1,9 +1,10 @@
 local M = {
 	{
 		{ "catppuccin/nvim", name = "catppuccin" },
-		{ "nyoom-engineering/oxocarbon.nvim" },
+		{ "nyoom-engineering/oxocarbon.nvim", enabled = false },
 		{
 			"rebelot/kanagawa.nvim",
+            enabled = false,
 			config = function()
 				require("kanagawa").setup({
 					colors = {

@@ -7,8 +7,6 @@ local noice = require("core.ui.noice")
 local notify = require("core.ui.notify")
 local barbar = require("core.ui.barbar")
 local window_picker = require("core.ui.window-picker")
--- local twilight = require("core.ui.twilight")
-local zen = require("core.ui.zen")
 
 local M = {
 	themes,
@@ -22,8 +20,6 @@ local M = {
 	noice,
 	notify,
 	barbar,
-	-- twilight,
-	zen,
 }
 
 return M
