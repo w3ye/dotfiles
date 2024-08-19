@@ -15,7 +15,7 @@ M.adapter_setup = function(dap)
 		require("dap").configurations[language] = {
 			{
 				name = "Debug Platform Model",
-				type = "pwa-node",
+				type = "node",
 				request = "attach",
 				remoteRoot = "/usr/src/app",
 				localRoot = "${workspaceFolder}",
