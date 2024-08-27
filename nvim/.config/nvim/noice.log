@@ -1,0 +1,288 @@
+{ "msg_showcmd", "sl:1", "tick:125", false, { { 0, ":" } } }
+{ "cmdline_show", "sl:1", "tick:126", "mode:c", { { 0, "" } } }
+{ "cmdline_show", "sl:1", "tick:129", "mode:c", { { 0, "N" } } }
+{ "cmdline_show", "sl:1", "tick:131", "mode:c", { { 0, "Ni" } } }
+{ "cmdline_show", "sl:1", "tick:133", "mode:c", { { 0, "Nic" } } }
+{ "cmdline_show", "sl:1", "tick:135", "mode:c", { { 0, "Nice" } } }
+{ "cmdline_show", "sl:1", "tick:137", "mode:c", { { 0, "Nice " } } }
+{ "cmdline_show", "sl:1", "tick:139", "mode:c", { { 0, "Nice h" } } }
+{ "cmdline_show", "sl:1", "tick:141", "mode:c", { { 0, "Nice he" } } }
+{ "cmdline_show", "sl:1", "tick:143", "mode:c", { { 0, "Nice hel" } } }
+{ "cmdline_show", "sl:1", "tick:145", "mode:c", { { 0, "Nice hell" } } }
+{ "cmdline_show", "sl:1", "tick:147", "mode:c", { { 0, "Nice hello" } } }
+{ "cmdline_hide", "sl:1", "tick:149", false, 1 }
+{ "msg_show", "sl:1", "tick:150", false, "emsg" }
+{ "msg_showcmd", "sl:1", "tick:152", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:154", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:156", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:158", false, { { 0, "zz" } } }
+{ "msg_showcmd", "sl:1", "tick:160", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:162", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:164", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:166", false, { { 0, "zz" } } }
+{ "msg_showcmd", "sl:1", "tick:168", false, { { 0, "k" } } }
+{ "msg_showcmd", "sl:1", "tick:170", false, { { 0, "k" } } }
+{ "msg_showcmd", "sl:1", "tick:172", false, { { 0, "k" } } }
+{ "msg_showcmd", "sl:1", "tick:174", false, { { 0, "zz" } } }
+{ "msg_showcmd", "sl:1", "tick:176", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:178", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:180", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:182", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:184", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:186", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:188", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:190", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:192", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:194", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:196", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:198", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:200", false, { { 0, "w" } } }
+{ "msg_showcmd", "sl:1", "tick:202", false, { { 0, "w" } } }
+{ "msg_showcmd", "sl:1", "tick:204", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:206", false, { { 0, "w" } } }
+{ "msg_showcmd", "sl:1", "tick:208", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:210", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:212", false, { { 0, "k" } } }
+{ "msg_showcmd", "sl:1", "tick:214", false, { { 0, "b" } } }
+{ "msg_showcmd", "sl:1", "tick:216", false, { { 0, "b" } } }
+{ "msg_showcmd", "sl:1", "tick:217", false, { { 0, "k" } } }
+{ "msg_showcmd", "sl:1", "tick:219", false, { { 0, "/" } } }
+{ "cmdline_show", "sl:1", "tick:220", "mode:c", { { 0, "" } } }
+{ "cmdline_show", "sl:1", "tick:223", "mode:c", { { 0, "h" } } }
+{ "cmdline_show", "sl:1", "tick:225", "mode:c", { { 0, "hi" } } }
+{ "cmdline_hide", "sl:1", "tick:227", false, 1 }
+{ "msg_show", "sl:1", "tick:228", false, "" }
+{ "msg_show", "sl:1", "tick:229", false, "search_count" }
+{ "msg_show", "sl:1", "tick:232", false, "" }
+{ "msg_show", "sl:1", "tick:233", false, "search_count" }
+{ "msg_showcmd", "sl:1", "tick:235", false, { { 0, "zv" } } }
+{ "msg_show", "sl:1", "tick:238", false, "" }
+{ "msg_show", "sl:1", "tick:239", false, "search_count" }
+{ "msg_showcmd", "sl:1", "tick:241", false, { { 0, "zv" } } }
+{ "msg_show", "sl:1", "tick:244", false, "" }
+{ "msg_show", "sl:1", "tick:245", false, "search_count" }
+{ "msg_showcmd", "sl:1", "tick:247", false, { { 0, "zv" } } }
+{ "msg_showcmd", "sl:1", "tick:250", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:252", false, { { 0, "k" } } }
+{ "msg_showcmd", "sl:1", "tick:254", false, { { 0, "k" } } }
+{ "msg_showcmd", "sl:1", "tick:256", false, { { 0, "k" } } }
+{ "msg_showcmd", "sl:1", "tick:258", false, { { 0, "k" } } }
+{ "msg_showcmd", "sl:1", "tick:260", false, { { 0, "w" } } }
+{ "msg_showcmd", "sl:1", "tick:262", false, { { 0, "w" } } }
+{ "msg_showcmd", "sl:1", "tick:264", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:266", false, { { 0, "k" } } }
+{ "msg_showcmd", "sl:1", "tick:268", false, { { 0, "c" } } }
+{ "msg_showcmd", "sl:1", "tick:269", "mode:no", { { 0, "cw" } } }
+{ "msg_showmode", "sl:1", "tick:271", false, { { 178, "-- INSERT --" } } }
+{ "msg_showmode", "sl:1", "tick:273", false, {} }
+{ "msg_showcmd", "sl:1", "tick:274", false, { { 0, "w" } } }
+{ "msg_showcmd", "sl:1", "tick:276", false, { { 0, "^M" } } }
+{ "msg_showcmd", "sl:1", "tick:278", false, { { 0, ":" } } }
+{ "msg_clear", "sl:1", "tick:279", false }
+{ "cmdline_show", "sl:1", "tick:280", "mode:c", { { 0, "" } } }
+{ "cmdline_show", "sl:1", "tick:283", "mode:c", { { 0, "w" } } }
+{ "cmdline_hide", "sl:1", "tick:285", false, 1 }
+{ "msg_show", "sl:1", "tick:286", false, "" }
+{ "msg_show", "sl:1", "tick:287", false, "" }
+{ "msg_showcmd", "sl:1", "tick:290", false, { { 0, "g" } } }
+{ "msg_showcmd", "sl:1", "tick:291", false, { { 0, "gg" } } }
+{ "msg_showcmd", "sl:1", "tick:293", false, { { 0, "<20>" } } }
+{ "msg_showcmd", "sl:1", "tick:294", false, { { 0, "<20>" } } }
+{ "msg_showcmd", "sl:1", "tick:295", false, { { 0, "<20>f" } } }
+{ "msg_ruler", "sl:1", "tick:296", false, { { 1, "1,0-1         All" } } }
+{ "msg_showcmd", "sl:1", "tick:297", false, { { 0, "A" } } }
+{ "msg_showmode", "sl:1", "tick:298", false, { { 178, "-- INSERT --" } } }
+{ "msg_ruler", "sl:1", "tick:299", false, { { 1, "1,3           All" } } }
+{ "msg_ruler", "sl:1", "tick:303", false, { { 1, "1,4           All" } } }
+{ "msg_ruler", "sl:1", "tick:305", false, { { 1, "1,5           All" } } }
+{ "msg_ruler", "sl:1", "tick:307", false, { { 1, "1,6           All" } } }
+{ "msg_ruler", "sl:1", "tick:309", false, { { 1, "1,5           All" } } }
+{ "msg_ruler", "sl:1", "tick:311", false, { { 1, "1,4           All" } } }
+{ "msg_ruler", "sl:1", "tick:313", false, { { 1, "1,3           All" } } }
+{ "msg_ruler", "sl:1", "tick:315", false, { { 1, "1,4           All" } } }
+{ "msg_ruler", "sl:1", "tick:317", false, { { 1, "1,5           All" } } }
+{ "msg_ruler", "sl:1", "tick:319", false, { { 1, "1,6           All" } } }
+{ "msg_ruler", "sl:1", "tick:321", false, { { 1, "1,7           All" } } }
+{ "msg_ruler", "sl:1", "tick:323", false, { { 1, "1,6           All" } } }
+{ "msg_ruler", "sl:1", "tick:325", false, { { 1, "1,5           All" } } }
+{ "msg_ruler", "sl:1", "tick:327", false, { { 1, "1,4           All" } } }
+{ "msg_ruler", "sl:1", "tick:329", false, { { 1, "1,3           All" } } }
+{ "msg_ruler", "sl:1", "tick:331", false, { { 1, "1,4           All" } } }
+{ "msg_ruler", "sl:1", "tick:333", false, { { 1, "1,5           All" } } }
+{ "msg_ruler", "sl:1", "tick:335", false, { { 1, "1,6           All" } } }
+{ "msg_ruler", "sl:1", "tick:337", false, { { 1, "1,5           All" } } }
+{ "msg_ruler", "sl:1", "tick:339", false, { { 1, "1,4           All" } } }
+{ "msg_ruler", "sl:1", "tick:341", false, { { 1, "1,3           All" } } }
+{ "msg_ruler", "sl:1", "tick:343", false, { { 1, "1,4           All" } } }
+{ "msg_ruler", "sl:1", "tick:345", false, { { 1, "1,5           All" } } }
+{ "msg_ruler", "sl:1", "tick:347", false, { { 1, "1,6           All" } } }
+{ "msg_ruler", "sl:1", "tick:349", false, { { 1, "1,7           All" } } }
+{ "msg_showmode", "sl:1", "tick:351", false, {} }
+{ "msg_showcmd", "sl:1", "tick:352", false, { { 0, "<20>" } } }
+{ "msg_showcmd", "sl:1", "tick:353", false, { { 0, "^[" } } }
+{ "msg_showcmd", "sl:1", "tick:355", false, { { 0, "^[" } } }
+{ "msg_ruler", "sl:1", "tick:357", false, { { 1, "1,0-1         All" } } }
+{ "msg_showcmd", "sl:1", "tick:358", false, { { 0, "A" } } }
+{ "msg_showmode", "sl:1", "tick:359", false, { { 178, "-- INSERT --" } } }
+{ "msg_ruler", "sl:1", "tick:360", false, { { 1, "1,3           All" } } }
+{ "msg_ruler", "sl:1", "tick:364", false, { { 1, "1,4           All" } } }
+{ "msg_ruler", "sl:1", "tick:366", false, { { 1, "1,5           All" } } }
+{ "msg_ruler", "sl:1", "tick:368", false, { { 1, "1,6           All" } } }
+{ "msg_ruler", "sl:1", "tick:370", false, { { 1, "1,7           All" } } }
+{ "msg_ruler", "sl:1", "tick:372", false, { { 1, "1,8           All" } } }
+{ "msg_showmode", "sl:1", "tick:374", false, {} }
+{ "msg_showcmd", "sl:1", "tick:375", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:377", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:379", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:381", false, { { 0, "zz" } } }
+{ "msg_showcmd", "sl:1", "tick:383", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:385", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:387", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:389", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:391", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:393", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:395", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:397", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:399", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:401", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:403", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:405", false, { { 0, "w" } } }
+{ "msg_showcmd", "sl:1", "tick:407", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:409", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:411", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:413", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:415", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:417", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:419", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:421", false, { { 0, "g" } } }
+{ "msg_showcmd", "sl:1", "tick:422", false, { { 0, "gg" } } }
+{ "msg_showcmd", "sl:1", "tick:424", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:426", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:428", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:430", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:432", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:434", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:436", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:438", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:440", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:442", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:444", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:446", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:448", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:450", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:452", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:454", false, { { 0, "w" } } }
+{ "msg_showcmd", "sl:1", "tick:456", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:458", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:460", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:462", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:464", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:466", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:468", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:470", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:472", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:474", false, { { 0, "k" } } }
+{ "msg_showcmd", "sl:1", "tick:476", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:478", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:480", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:482", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:484", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:486", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:488", false, { { 0, "k" } } }
+{ "msg_showcmd", "sl:1", "tick:490", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:492", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:494", false, { { 0, "k" } } }
+{ "msg_showcmd", "sl:1", "tick:496", false, { { 0, "k" } } }
+{ "msg_showcmd", "sl:1", "tick:498", false, { { 0, "k" } } }
+{ "msg_showcmd", "sl:1", "tick:500", false, { { 0, "<20>" } } }
+{ "msg_showcmd", "sl:1", "tick:501", false, { { 0, "<20>" } } }
+{ "msg_showcmd", "sl:1", "tick:502", false, { { 0, "<20>f" } } }
+{ "msg_ruler", "sl:1", "tick:503", false, { { 1, "1,0-1         All" } } }
+{ "msg_showcmd", "sl:1", "tick:504", false, { { 0, "A" } } }
+{ "msg_showmode", "sl:1", "tick:505", false, { { 178, "-- INSERT --" } } }
+{ "msg_ruler", "sl:1", "tick:506", false, { { 1, "1,3           All" } } }
+{ "msg_ruler", "sl:1", "tick:510", false, { { 1, "1,4           All" } } }
+{ "msg_ruler", "sl:1", "tick:512", false, { { 1, "1,5           All" } } }
+{ "msg_ruler", "sl:1", "tick:514", false, { { 1, "1,6           All" } } }
+{ "msg_ruler", "sl:1", "tick:516", false, { { 1, "1,5           All" } } }
+{ "msg_ruler", "sl:1", "tick:518", false, { { 1, "1,6           All" } } }
+{ "msg_ruler", "sl:1", "tick:520", false, { { 1, "1,7           All" } } }
+{ "msg_ruler", "sl:1", "tick:522", false, { { 1, "1,8           All" } } }
+{ "msg_ruler", "sl:1", "tick:524", false, { { 1, "1,9           All" } } }
+{ "msg_ruler", "sl:1", "tick:526", false, { { 1, "1,10          All" } } }
+{ "msg_showmode", "sl:1", "tick:528", false, {} }
+{ "msg_showcmd", "sl:1", "tick:529", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:531", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:533", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:535", false, { { 0, "zz" } } }
+{ "msg_showcmd", "sl:1", "tick:537", false, { { 0, "zz" } } }
+{ "msg_showcmd", "sl:1", "tick:539", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:541", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:543", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:545", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:547", false, { { 0, "w" } } }
+{ "msg_showcmd", "sl:1", "tick:549", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:550", false, { { 0, "w" } } }
+{ "msg_showcmd", "sl:1", "tick:552", false, { { 0, "w" } } }
+{ "msg_showcmd", "sl:1", "tick:554", false, { { 0, "w" } } }
+{ "msg_showcmd", "sl:1", "tick:556", false, { { 0, "w" } } }
+{ "msg_showcmd", "sl:1", "tick:558", false, { { 0, "w" } } }
+{ "msg_showcmd", "sl:1", "tick:560", false, { { 0, "w" } } }
+{ "msg_showcmd", "sl:1", "tick:562", false, { { 0, "w" } } }
+{ "msg_showcmd", "sl:1", "tick:564", false, { { 0, "o" } } }
+{ "msg_showmode", "sl:1", "tick:565", false, { { 178, "-- INSERT --" } } }
+{ "msg_showmode", "sl:1", "tick:568", false, {} }
+{ "msg_show", "sl:1", "tick:569", false, "echomsg" }
+{ "msg_showcmd", "sl:1", "tick:571", false, { { 0, "d" } } }
+{ "msg_showcmd", "sl:1", "tick:572", "mode:no", { { 0, "dd" } } }
+{ "msg_showcmd", "sl:1", "tick:574", false, { { 0, "k" } } }
+{ "msg_showcmd", "sl:1", "tick:576", false, { { 0, "w" } } }
+{ "msg_showcmd", "sl:1", "tick:578", false, { { 0, "g" } } }
+{ "msg_showcmd", "sl:1", "tick:579", false, { { 0, "gg" } } }
+{ "msg_showcmd", "sl:1", "tick:581", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:583", false, { { 0, "<20>" } } }
+{ "msg_showcmd", "sl:1", "tick:584", false, { { 0, "<20>" } } }
+{ "msg_showcmd", "sl:1", "tick:585", false, { { 0, "<20>f" } } }
+{ "msg_ruler", "sl:1", "tick:586", false, { { 1, "1,0-1         All" } } }
+{ "msg_showcmd", "sl:1", "tick:587", false, { { 0, "A" } } }
+{ "msg_showmode", "sl:1", "tick:588", false, { { 178, "-- INSERT --" } } }
+{ "msg_ruler", "sl:1", "tick:589", false, { { 1, "1,3           All" } } }
+{ "msg_ruler", "sl:1", "tick:593", false, { { 1, "1,4           All" } } }
+{ "msg_ruler", "sl:1", "tick:595", false, { { 1, "1,5           All" } } }
+{ "msg_ruler", "sl:1", "tick:597", false, { { 1, "1,6           All" } } }
+{ "msg_ruler", "sl:1", "tick:599", false, { { 1, "1,7           All" } } }
+{ "msg_showcmd", "sl:1", "tick:601", false, { { 0, "k" } } }
+{ "msg_showcmd", "sl:1", "tick:603", false, { { 0, "k" } } }
+{ "msg_showcmd", "sl:1", "tick:605", false, { { 0, "k" } } }
+{ "msg_showcmd", "sl:1", "tick:607", false, { { 0, "j" } } }
+{ "msg_showcmd", "sl:1", "tick:609", false, { { 0, "j" } } }
+{ "msg_showmode", "sl:1", "tick:611", false, {} }
+{ "msg_showcmd", "sl:1", "tick:612", false, { { 0, ":" } } }
+{ "cmdline_show", "sl:1", "tick:613", "mode:c", { { 0, "" } } }
+{ "cmdline_show", "sl:1", "tick:616", "mode:c", { { 0, "q" } } }
+{ "cmdline_show", "sl:1", "tick:618", "mode:c", { { 0, "qa" } } }
+{ "cmdline_hide", "sl:1", "tick:620", false, 1 }
+{ "msg_show", "sl:1", "tick:621", false, "emsg" }
+{ "msg_show", "sl:1", "tick:622", false, "emsg" }
+{ "msg_showcmd", "sl:1", "tick:625", false, { { 0, ":" } } }
+{ "cmdline_show", "sl:1", "tick:626", "mode:c", { { 0, "" } } }
+{ "cmdline_show", "sl:1", "tick:629", "mode:c", { { 0, "q" } } }
+{ "cmdline_show", "sl:1", "tick:631", "mode:c", { { 0, "q!" } } }
+{ "cmdline_hide", "sl:1", "tick:633", false, 1 }
+{ "msg_show", "sl:1", "tick:634", false, "emsg" }
+{ "msg_show", "sl:1", "tick:635", false, "emsg" }
+{ "msg_showcmd", "sl:1", "tick:638", false, { { 0, ":" } } }
+{ "cmdline_show", "sl:1", "tick:639", "mode:c", { { 0, "" } } }
+{ "cmdline_show", "sl:1", "tick:642", "mode:c", { { 0, "q" } } }
+{ "cmdline_show", "sl:1", "tick:644", "mode:c", { { 0, "qa" } } }
+{ "cmdline_hide", "sl:1", "tick:646", false, 1 }
+{ "msg_show", "sl:1", "tick:647", false, "emsg" }
+{ "msg_show", "sl:1", "tick:648", false, "emsg" }
+{ "msg_showcmd", "sl:1", "tick:651", false, { { 0, ":" } } }
+{ "cmdline_show", "sl:1", "tick:652", "mode:c", { { 0, "" } } }
+{ "cmdline_show", "sl:1", "tick:655", "mode:c", { { 0, "w" } } }
+{ "cmdline_show", "sl:1", "tick:657", "mode:c", { { 0, "wq" } } }
+{ "cmdline_show", "sl:1", "tick:659", "mode:c", { { 0, "wqa" } } }
+{ "cmdline_hide", "sl:1", "tick:661", false, 1 }
+{ "msg_show", "sl:1", "tick:662", false, "" }
+{ "msg_show", "sl:1", "tick:663", false, "" }

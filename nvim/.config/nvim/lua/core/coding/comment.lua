@@ -1,6 +1,7 @@
 local M = {
 	"numToStr/Comment.nvim",
 	enabled = _G.enabled.comment,
+	lazy = true,
 	config = function()
 		require("ts_context_commentstring").setup({
 			enable_autocmd = false,

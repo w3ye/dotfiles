@@ -2,8 +2,8 @@ local M = {
 	-- coding
 	autopairs = true,
 	comment = true,
-	tabout = false,
-	todo_comments = false,
+	tabout = true,
+	todo_comments = true,
 	vim_surround = true,
 	comment_string = true,
 	visual_multi = true,
@@ -12,7 +12,7 @@ local M = {
 	lspsaga = true,
 	fugitive = false,
 	gitsigns = true,
-	diffview = false,
+	diffview = true,
 	lazygit = true,
 	dap = true,
 	treesitter = true,
@@ -24,7 +24,7 @@ local M = {
 	lualine = false,
 	focus = false,
 	dashboard = false,
-	noice = false,
+	noice = true,
 	notify = false,
 	barbar = false,
 	twilight = false,
@@ -35,16 +35,16 @@ local M = {
 	flit = false,
 	flash = true,
 	which_key = false,
-	harpoon = false,
+	harpoon = true,
 	bqf = true,
 	formatter = true,
 	bookmarks = true,
-	fzf = false,
+	fzf = true,
 	-- lang
 	go = false,
 	-- lsp
 	lsp = true,
-	tstools = true,
+	tstools = false,
 	supermaven = true,
 }
 
