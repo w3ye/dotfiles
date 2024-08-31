@@ -1,6 +1,5 @@
 local M = {
 	"folke/todo-comments.nvim",
-	enabled = _G.enabled.todo_comments,
 }
 
 M.config = function()

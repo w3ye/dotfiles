@@ -1,5 +1,7 @@
 return {
 	"nvim-focus/focus.nvim",
+	lazy = true,
+	event = "VeryLazy",
 	config = function()
 		require("focus").setup({
 			enable = true,

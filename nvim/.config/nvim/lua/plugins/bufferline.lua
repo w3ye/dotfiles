@@ -1,6 +1,7 @@
 local opts = { noremap = true, silent = true }
 return {
 	"romgrk/barbar.nvim",
+	lazy = false,
 	event = "VimEnter",
 	dependencies = "nvim-tree/nvim-web-devicons",
 	opts = {

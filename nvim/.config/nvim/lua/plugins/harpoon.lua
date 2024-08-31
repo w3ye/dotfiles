@@ -1,5 +1,6 @@
 return {
 	"ThePrimeagen/harpoon",
+	lazy = true,
 	event = "VeryLazy",
 	keys = {
 		{ "<leader>hm", '<cmd>lua require("harpoon.mark").add_file()<cr>', desc = "harpoon mark" },

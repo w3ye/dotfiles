@@ -1,5 +1,6 @@
 return {
 	"AckslD/nvim-trevJ.lua",
+	lazy = true,
 	event = "VeryLazy",
 	keys = {
 		{

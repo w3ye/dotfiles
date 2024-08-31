@@ -13,4 +13,11 @@ return {
 		end,
 	},
 	{ "JoosepAlviste/nvim-ts-context-commentstring", lazy = true, event = "VeryLazy" },
+	{
+		"folke/todo-comments.nvim",
+		event = "VeryLazy",
+		lazy = true,
+		dependencies = { "nvim-lua/plenary.nvim" },
+		opts = {},
+	},
 }

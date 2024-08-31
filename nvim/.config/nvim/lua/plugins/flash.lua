@@ -1,6 +1,6 @@
-local f = require("flash")
 return {
 	"folke/flash.nvim",
+	lazy = true,
 	event = "VeryLazy",
 	opts = {
 		modes = {
@@ -14,7 +14,7 @@ return {
 			"s",
 			mode = { "n", "x", "o" },
 			function()
-				f.jump()
+				require("flash").jump()
 			end,
 			desc = "Flash",
 		},
@@ -22,7 +22,7 @@ return {
 			"<leader>s",
 			mode = { "n", "x", "o" },
 			function()
-				f.treesitter()
+				require("flash").treesitter()
 			end,
 			desc = "Flash Treesitter",
 		},
@@ -30,7 +30,7 @@ return {
 			"r",
 			mode = "o",
 			function()
-				f.remote()
+				require("flash").remote()
 			end,
 			desc = "Remote Flash",
 		},
@@ -38,7 +38,7 @@ return {
 			"R",
 			mode = { "o", "x" },
 			function()
-				f.treesitter_search()
+				require("flash").treesitter_search()
 			end,
 			desc = "Treesitter Search",
 		},
@@ -46,7 +46,7 @@ return {
 			"<c-s>",
 			mode = { "c" },
 			function()
-				f.toggle()
+				require("flash").toggle()
 			end,
 			desc = "Toggle Flash Search",
 		},
