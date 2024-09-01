@@ -36,10 +36,14 @@ return {
 				'<cmd>lua require("neotest").summary.toggle()<cr>',
 				desc = "Toggle neotest summary",
 			},
-			{ "<leader>nr", '<cmd>lua require("neotest").run.run()', desc = "Run closest test" },
 			{
-				"<leader>na",
-				'<cmd>lua require("neotest").run.attach()',
+				"<leader>nr",
+				'<cmd>lua require("neotest").run.run()<cr>',
+				desc = "Run closest test",
+			},
+			{
+				"<leader>nt",
+				'<cmd>lua require("neotest").run.attach()<cr>',
 				desc = "Attach closest test",
 			},
 			{
