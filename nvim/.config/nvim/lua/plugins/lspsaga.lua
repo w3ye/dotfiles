@@ -70,11 +70,11 @@ local keys = {
 		end,
 		desc = "goto next error",
 	},
-	-- {
-	-- 	"K",
-	-- 	"<cmd>Lspsaga hover_doc<CR>",
-	-- 	desc = "hover doc",
-	-- },
+	{
+		"K",
+		"<cmd>Lspsaga hover_doc<CR>",
+		desc = "hover doc",
+	},
 	{
 		"<leader>K",
 		"<cmd>Lspsaga hover_doc ++keep<CR>",
