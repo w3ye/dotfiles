@@ -76,18 +76,21 @@ return {
 			function()
 				require("noice").cmd("last")
 			end,
+			desc = "Last notification (noice)",
 		},
 		{
 			"<leader>nh",
 			function()
 				require("noice").cmd("history")
 			end,
+			desc = "History notification (noice)",
 		},
 		{
 			"<leader>na",
 			function()
 				require("noice").cmd("all")
 			end,
+			desc = "All notification (noice)",
 		},
 	},
 }
