@@ -20,7 +20,6 @@ return {
 			timeout_ms = 500,
 			quiet = true,
 		},
-		quiet = true,
 		format_after_save = {
 			lsp_format = true,
 		},
