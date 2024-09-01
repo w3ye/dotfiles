@@ -25,9 +25,17 @@ local routes = {
 	},
 	{
 		filter = {
-			event = "",
+			event = "notify.info",
 			kind = "",
-			find = "",
+			find = "No information available",
+		},
+		opts = { skip = true },
+	},
+	{
+		filter = {
+			event = "notify.info",
+			kind = "",
+			find = "No signature help available",
 		},
 		opts = { skip = true },
 	},
@@ -37,6 +45,11 @@ return {
 	"folke/noice.nvim",
 	event = "VeryLazy",
 	opts = {
+		views = {
+			split = {
+				enter = false,
+			},
+		},
 		redirect = {
 			view = "messages",
 			filter = { event = "msg_show" },
