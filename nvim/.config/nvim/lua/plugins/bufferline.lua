@@ -31,7 +31,6 @@ return {
 		-- Pin/unpin buffer
 		{ "<M-p>", "<Cmd>BufferPin<CR>", opts },
 		-- Close buffer
-		{ "<leader>d", "<Cmd>BufferClose<CR>", opts },
 		{ "<leader>D", "<Cmd>BufferCloseAllButCurrent<CR>", opts },
 		-- Wipeout buffer
 		--                 :BufferWipeout
