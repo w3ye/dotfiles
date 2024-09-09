@@ -9,12 +9,15 @@ return {
 			"antoinemadec/FixCursorHold.nvim",
 			"nvim-treesitter/nvim-treesitter",
 			"nvim-neotest/neotest-jest",
+			"marilari88/neotest-vitest",
 		},
 		config = function()
 			require("neotest").setup({
 				adapters = {
+					-- jest
 					require("neotest-jest")({
 						jestCommand = "jest --watch",
+						-- jestCommand = require("neotest-jest.jest-util").getJestCommand(vim.fn.expand("%:p:h")) .. " --watch",
 						jestConfigFile = function(file)
 							if string.find(file, "/packages/") then
 								return string.match(file, "(.-/[^/]+/)src") .. "jest.config.ts"
@@ -27,6 +30,8 @@ return {
 							return vim.fn.getcwd()
 						end,
 					}),
+					-- vitest
+					require("neotest-vitest")({}),
 				},
 			})
 		end,
