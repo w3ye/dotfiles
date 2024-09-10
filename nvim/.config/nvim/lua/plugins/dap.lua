@@ -23,24 +23,6 @@ js = function(dap)
 				skipFiles = { "<node_internals>/**" },
 				sourceMaps = true,
 			},
-			{
-				type = "pwa-node",
-				request = "attach",
-				name = "Attach to node",
-				processId = require("dap.utils").pick_process,
-				cwd = "${workspaceFolder}",
-			},
-			{
-				type = "pwa-node",
-				request = "launch",
-				name = "Launch file",
-				program = "${file}",
-				cwd = "${workspaceFolder}",
-			},
-			---@diagnostic disable-next-line: missing-fields
-			{
-				name = "-- launch.json --",
-			},
 		}
 	end
 end

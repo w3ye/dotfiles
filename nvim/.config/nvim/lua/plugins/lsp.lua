@@ -1,6 +1,6 @@
 return {
 	{
-		"williamboman/mason.nvim",
+
 		"williamboman/mason-lspconfig.nvim",
 		"neovim/nvim-lspconfig",
 	},
@@ -51,9 +51,9 @@ return {
 				function(server_name) -- default handler (optional)
 					require("lspconfig")[server_name].setup({})
 				end,
-				-- ["tsserver"] = function()
-				-- 	require("plugins.tstools").setup()
-				-- end,
+				["ts_ls"] = function()
+					require("plugins.tstools").setup()
+				end,
 			})
 
 			-- Global mappings.
