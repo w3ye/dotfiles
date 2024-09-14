@@ -1,5 +1,8 @@
 local options = {
 	settings = {
+		root_dir = require("lspconfig.util").root_pattern(".git"),
+		separate_diagnostic_server = false,
+		publish_diagnostic_on = "insert_leave",
 		vtsls = {
 			experimental = {
 				completion = {
@@ -13,7 +16,7 @@ return {
 	"pmizio/typescript-tools.nvim",
 	dependencies = { "nvim-lua/plenary.nvim", "neovim/nvim-lspconfig" },
 	event = "VeryLazy",
-	ft = { "typescript", "javascript" },
+	ft = { "typescript", "javascript", "typescriptreact", "javascriptreact" },
 	setup = function()
 		require("typescript-tools").setup(options)
 	end,
