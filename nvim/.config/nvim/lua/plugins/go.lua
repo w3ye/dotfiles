@@ -6,7 +6,9 @@ return {
 		"nvim-treesitter/nvim-treesitter",
 	},
 	config = function()
-		require("go").setup({})
+		require("go").setup({
+			lsp_semantic_highlights = true,
+		})
 	end,
 	event = { "CmdlineEnter" },
 	ft = { "go", "gomod" },
