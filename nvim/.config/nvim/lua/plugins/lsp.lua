@@ -54,6 +54,7 @@ return {
 				["ts_ls"] = function()
 					require("plugins.tstools").setup()
 				end,
+				["glint"] = function() end,
 			})
 
 			-- Global mappings.
