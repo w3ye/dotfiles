@@ -39,6 +39,14 @@ local routes = {
 		},
 		opts = { skip = true },
 	},
+	{
+		filter = {
+			event = "msg_show",
+			kind = "",
+			find = "no parser for",
+		},
+		opts = { skip = true },
+	},
 }
 
 return {
