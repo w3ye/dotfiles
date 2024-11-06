@@ -50,7 +50,13 @@ return {
 			require("mason-lspconfig").setup_handlers({
 				function(server_name) -- default handler (optional)
 					-- getting the filename
-					require("lspconfig")[server_name].setup({})
+					require("lspconfig")[server_name].setup({
+						settings = {
+							maxPreload = 10000,
+							preloadFileSize = 1000,
+							allow_incremental_sync = true,
+						},
+					})
 				end,
 				["ts_ls"] = function()
 					require("plugins.tstools").setup()
