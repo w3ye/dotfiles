@@ -80,7 +80,7 @@ local telescope_keys = {
 		"<leader>fm",
 		"<cmd>lua require('telescope').extensions.bookmarks.list(require('telescope.themes').get_ivy())<cr>",
 	},
-	{ "<C-p>", "<cmd>Telescope projects<cr>" },
+	-- { "<C-p>", "<cmd>Telescope projects<cr>" },
 }
 
 return {
