@@ -58,6 +58,18 @@ return {
 						},
 					})
 				end,
+				["lua_ls"] = function()
+					local lspconfig = require("lspconfig")
+					lspconfig.lua_ls.setup({
+						settings = {
+							Lua = {
+								diagnostics = {
+									globals = { "vim" },
+								},
+							},
+						},
+					})
+				end,
 				["ts_ls"] = function()
 					require("plugins.tstools").setup()
 				end,
