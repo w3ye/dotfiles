@@ -50,19 +50,6 @@ vim.opt.scrolloff = 4
 -- 	end,
 -- })
 --
-local severity = vim.diagnostic.severity
-vim.diagnostic.config({
-	virtual_text = false,
-	underline = false,
-	signs = {
-		text = {
-			[severity.ERROR] = "",
-			[severity.WARN] = " ",
-			[severity.HINT] = " ",
-			[severity.INFO] = " ",
-		},
-	},
-})
 
 vim.api.nvim_create_user_command("Crpath", function()
 	vim.api.nvim_call_function("setreg", { "+", vim.fn.fnamemodify(vim.fn.expand("%"), ":.") })

@@ -1,6 +1,18 @@
+local severity = vim.diagnostic.severity
+vim.diagnostic.config({
+	virtual_text = false,
+	underline = false,
+	signs = {
+		text = {
+			[severity.ERROR] = "",
+			[severity.WARN] = " ",
+			[severity.HINT] = " ",
+			[severity.INFO] = " ",
+		},
+	},
+})
 return {
 	{
-
 		"williamboman/mason-lspconfig.nvim",
 		"neovim/nvim-lspconfig",
 	},
@@ -118,10 +130,10 @@ return {
 				end,
 			})
 		end,
-		opts = {
-			diagnostics = {
-				virtual_text = false,
-			},
-		},
+		-- opts = {
+		-- 	diagnostics = {
+		-- 		virtual_text = false,
+		-- 	},
+		-- },
 	},
 }
