@@ -31,7 +31,7 @@ return {
 			desc = "monorepo remove project",
 		},
 		{
-			"<leader>n",
+			"<leader>M",
 			function()
 				require("monorepo").toggle_project()
 			end,
