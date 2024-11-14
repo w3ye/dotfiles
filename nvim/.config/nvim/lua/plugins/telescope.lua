@@ -68,11 +68,11 @@ local telescope_setup = function()
 end
 
 local telescope_keys = {
-	{ "<C-f>", "<cmd>Telescope find_files<cr>" },
-	{ "<leader>fA", "<cmd>Telescope live_grep<cr>" },
-	{ "<leader>fa", "<cmd>Telescope live_grep_args<cr>" },
+	{ "<leader><leader>", "<cmd>Telescope find_files<cr>" },
+	{ "<leader><leader>a", "<cmd>Telescope live_grep<cr>" },
+	{ "<leader><leader>s", "<cmd>Telescope live_grep_args<cr>" },
 	{ "<leader>fs", "<cmd>Telescope grep_string<cr>", mode = { "n", "v" } },
-	{ "<leader>fo", "<cmd>Telescope oldfiles<cr>" },
+	{ "<leader><leader>o", "<cmd>Telescope oldfiles<cr>" },
 	{ "<leader>f", "<cmd>Telescope<cr>" },
 	{ "<leader>ff", "<cmd>Telescope buffers<cr>" },
 	{ "<leader>fr", "<cmd>Telescope resume<cr>" },
