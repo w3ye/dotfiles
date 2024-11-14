@@ -19,9 +19,9 @@ vim.keymap.set("n", "<F1>", "<cmd>set relativenumber!<cr>")
 vim.keymap.set("n", "<F2>", "<cmd>set hlsearch!<cr>")
 
 -- pressing tab in normal mode split buffers
-vim.keymap.set("n", "<tab>", "<cmd>bnext<cr>")
+vim.keymap.set("n", "<leader><leader>b", "<cmd>bnext<cr>")
 -- <C-y> maps to <Shift-tab> in warp for some reason
-vim.keymap.set("n", "<s-tab>", "<cmd>bprevious<cr>")
+vim.keymap.set("n", "<leader><leader>n", "<cmd>bprevious<cr>")
 
 vim.keymap.set("n", "<M-right>", "<C-w>>", { silent = true })
 vim.keymap.set("n", "<M-left>", "<C-w><", { silent = true })

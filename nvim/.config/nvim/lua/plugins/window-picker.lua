@@ -13,7 +13,7 @@ return {
 	},
 	keys = {
 		{
-			"<leader>p",
+			"<leader>j",
 			function()
 				local window = require("window-picker").pick_window()
 				if window ~= nil then
