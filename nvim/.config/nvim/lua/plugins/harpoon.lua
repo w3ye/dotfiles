@@ -24,14 +24,14 @@ return {
 			desc = "harpoon toggle",
 		},
 		{
-			"<C-N>",
+			"<C-,>",
 			function()
 				require("harpoon"):list():next()
 			end,
 			desc = "harpoon next",
 		},
 		{
-			"<C-P>",
+			"<C-.>",
 			function()
 				require("harpoon"):list():prev()
 			end,
