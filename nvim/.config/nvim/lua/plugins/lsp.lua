@@ -1,16 +1,3 @@
-local severity = vim.diagnostic.severity
-vim.diagnostic.config({
-	virtual_text = false,
-	underline = false,
-	signs = {
-		text = {
-			[severity.ERROR] = "",
-			[severity.WARN] = " ",
-			[severity.HINT] = " ",
-			[severity.INFO] = " ",
-		},
-	},
-})
 return {
 	{
 		"williamboman/mason-lspconfig.nvim",
@@ -49,6 +36,21 @@ return {
 			opts = { lsp = { auto_attach = true } },
 			keys = { { "<leader>o", mode = { "n" }, "<cmd>Navbuddy<cr>", desc = "toggle Navbuddy" } },
 		},
+		init = function()
+			local severity = vim.diagnostic.severity
+			vim.diagnostic.config({
+				virtual_text = false,
+				underline = false,
+				signs = {
+					text = {
+						[severity.ERROR] = "",
+						[severity.WARN] = " ",
+						[severity.HINT] = " ",
+						[severity.INFO] = " ",
+					},
+				},
+			})
+		end,
 		config = function()
 			require("mason").setup({
 				ensure_installed = {
