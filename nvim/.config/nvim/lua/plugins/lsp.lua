@@ -132,6 +132,9 @@ return {
 				end,
 			})
 		end,
+		on_attach = function(client, bufnr)
+			client.server_capabilities.semanticTokensProvider = nil
+		end,
 		-- opts = {
 		-- 	diagnostics = {
 		-- 		virtual_text = false,
