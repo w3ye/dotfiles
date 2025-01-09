@@ -68,9 +68,9 @@ local telescope_setup = function()
 end
 
 local telescope_keys = {
-	{ "<leader><leader>", "<cmd>Telescope find_files<cr>" },
+	{ "<C-f>", "<cmd>Telescope find_files<cr>" },
 	{ "<leader><leader>a", "<cmd>Telescope live_grep<cr>" },
-	{ "<leader><leader>s", "<cmd>Telescope live_grep_args<cr>" },
+	{ "<leader><leader>", "<cmd>Telescope live_grep_args<cr>" },
 	{ "<leader>fs", "<cmd>Telescope grep_string<cr>", mode = { "n", "v" } },
 	{ "<leader><leader>o", "<cmd>Telescope oldfiles<cr>" },
 	{ "<leader>f", "<cmd>Telescope<cr>" },
@@ -90,6 +90,7 @@ return {
 		event = "VimEnter",
 		config = telescope_setup,
 		keys = telescope_keys,
+		tag = "0.1.8",
 	},
 	{
 		"nvim-telescope/telescope-fzf-native.nvim",
