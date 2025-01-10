@@ -24,18 +24,6 @@ return {
 		},
 		-- mason-nvim-dap is loaded when nvim-dap loads
 		config = function() end,
-	},
-	{
-		"neovim/nvim-lspconfig",
-		dependencies = {
-			"SmiteshP/nvim-navbuddy",
-			dependencies = {
-				"SmiteshP/nvim-navic",
-				"MunifTanjim/nui.nvim",
-			},
-			opts = { lsp = { auto_attach = true } },
-			keys = { { "<leader>o", mode = { "n" }, "<cmd>Navbuddy<cr>", desc = "toggle Navbuddy" } },
-		},
 		init = function()
 			local severity = vim.diagnostic.severity
 			vim.diagnostic.config({
@@ -51,6 +39,18 @@ return {
 				},
 			})
 		end,
+	},
+	{
+		"neovim/nvim-lspconfig",
+		dependencies = {
+			"SmiteshP/nvim-navbuddy",
+			dependencies = {
+				"SmiteshP/nvim-navic",
+				"MunifTanjim/nui.nvim",
+			},
+			opts = { lsp = { auto_attach = true } },
+			keys = { { "<leader>o", mode = { "n" }, "<cmd>Navbuddy<cr>", desc = "toggle Navbuddy" } },
+		},
 		config = function()
 			require("mason").setup({
 				ensure_installed = {
