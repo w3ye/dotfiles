@@ -44,7 +44,7 @@ return {
 		{ "<C-g>", "<Cmd>BufferPick<CR>", opts },
 		-- Sort automatically by...
 		{ "<leader>bb", "<Cmd>BufferOrderByBufferNumber<CR>", opts },
-		{ "<leader>bd", "<Cmd>BufferOrderByDirectory<CR>", opts },
+		-- { "<leader>bd", "<Cmd>BufferOrderByDirectory<CR>", opts },
 		{ "<leader>bl", "<Cmd>BufferOrderByLanguage<CR>", opts },
 		{ "<leader>bw", "<Cmd>BufferOrderByWindowNumber<CR>", opts },
 		{ "<leader>D", "<Cmd>BufferCloseAllButCurrentOrPinned<CR>", opts },
