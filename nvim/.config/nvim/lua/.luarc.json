@@ -3,6 +3,7 @@
         "Snacks"],
     "diagnostics.disable": [
         "duplicate-set-field",
-        "missing-parameter"
+        "missing-parameter",
+        "undefined-doc-name"
     ]
 }

@@ -2,7 +2,6 @@ return {
 	"folke/snacks.nvim",
 	priority = 1000,
 	lazy = false,
-	---@type snacks.Config
 	opts = {
 		bigfile = { enabled = true },
 		quickfile = { enabled = true },
@@ -36,13 +35,6 @@ return {
 				Snacks.scratch.select()
 			end,
 			desc = "Select Scratch Buffer",
-		},
-		{
-			"<leader>n",
-			function()
-				Snacks.notifier.show_history()
-			end,
-			desc = "Notification History",
 		},
 		{
 			"<leader>bd",
