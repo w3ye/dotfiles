@@ -1,7 +1,12 @@
 return {
-	"stevearc/oil.nvim",
-	lazy = true,
-	event = "VeryLazy",
-	opts = {},
-	keys = { { "-", mode = { "n" }, "<cmd>Oil<cr>", desc = "oil open" } },
+  'stevearc/oil.nvim',
+  ---@module 'oil'
+  ---@type oil.SetupOpts
+  opts = {},
+  -- Optional dependencies
+  dependencies = { { "echasnovski/mini.icons", opts = {} } },
+  -- dependencies = { "nvim-tree/nvim-web-devicons" }, -- use if prefer nvim-web-devicons
+  keys = {
+    { "-", "<CMD>Oil<CR>", desc = "oil" }
+  }
 }
