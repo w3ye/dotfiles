@@ -1,4 +1,6 @@
 local actions = require("telescope.actions")
+local builtin = require("telescope.builtin")
+
 return {
 	"nvim-telescope/telescope.nvim",
 	tag = "0.1.8",
@@ -25,7 +27,10 @@ return {
 	keys = {
 		{
 			"<C-f>",
-			"<CMD>Telescope find_files<CR>",
+			-- "<CMD>Telescope find_files({ hidden = true })<CR>",
+			function()
+				builtin.find_files({ hidden = true })
+			end,
 			desc = "Find files(Telescope)",
 		},
 		{
@@ -43,7 +48,12 @@ return {
 		{ "<leader>f", "<cmd>Telescope<cr>" },
 		{ "<leader>ff", "<cmd>Telescope buffers<cr>" },
 		{ "<leader>fr", "<cmd>Telescope resume<cr>" },
-		{ "<leader>fs", "<cmd>Telescope grep_string<cr>" },
-		{ "<leader>fo", "<cmd>Telescope oldfiles<cr>", mode = { "n", "v" } },
+		{ "<leader>fs", "<cmd>Telescope grep_string<cr>", mode = { "n", "v" } },
+		{
+			"<leader>fo",
+			function()
+				builtin.oldfiles({ only_cwd = true })
+			end,
+		},
 	},
 }

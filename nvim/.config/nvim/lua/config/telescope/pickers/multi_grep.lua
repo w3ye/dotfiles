@@ -15,6 +15,7 @@ local search_multi_grep = function(opts)
 			local pieces = vim.split(prompt, "  ")
 			local args = { "rg" }
 			if pieces[1] then
+				table.insert(args, "--hidden")
 				table.insert(args, "-e")
 				table.insert(args, pieces[1])
 			end

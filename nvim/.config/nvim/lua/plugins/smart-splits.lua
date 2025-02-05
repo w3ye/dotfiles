@@ -9,28 +9,28 @@ return {
 	},
 	keys = {
 		{
-			"<leader>rh",
+			"<leader>mh",
 			function()
 				require("smart-splits").swap_buf_left()
 			end,
 			desc = "Swap Buffer Left",
 		},
 		{
-			"<leader>rj",
+			"<leader>mj",
 			function()
 				require("smart-splits").swap_buf_down()
 			end,
 			desc = "Swap Buffer Down",
 		},
 		{
-			"<leader>rk",
+			"<leader>mk",
 			function()
 				require("smart-splits").swap_buf_up()
 			end,
 			desc = "Swap Buffer Up",
 		},
 		{
-			"<leader>rl",
+			"<leader>ml",
 			function()
 				require("smart-splits").swap_buf_right()
 			end,

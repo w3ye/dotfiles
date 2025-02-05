@@ -8,6 +8,7 @@ return {
 			javascript = { "prettierd", "prettier", stop_after_first = true },
 			typescript = { "prettierd", "prettier", stop_after_first = true },
 			typescriptreact = { "prettierd", "prettier", stop_after_first = true },
+			json = { "prettierd", "prettier" },
 			go = { "gofmt" },
 			rust = { "rustfmt" },
 		},
@@ -16,7 +17,7 @@ return {
 		-- 	return { timeout_ms = 5000, lsp_fallback = true }
 		-- end,
 		format_on_save = {
-			lsp_format = "fallback",
+			lsp_format = "never",
 			timeout_ms = 500,
 			quiet = true,
 		},

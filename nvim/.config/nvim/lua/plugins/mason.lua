@@ -15,6 +15,7 @@ return {
 				function(server_name) -- default handler (optional)
 					require("lspconfig")[server_name].setup({})
 				end,
+				["ts_ls"] = function() end,
 				["lua_ls"] = function()
 					local lspconfig = require("lspconfig")
 					lspconfig.lua_ls.setup({

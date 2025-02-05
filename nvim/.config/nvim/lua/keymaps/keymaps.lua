@@ -35,4 +35,4 @@ vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 vim.keymap.set("v", "<", "<gv")
 vim.keymap.set("v", ">", ">gv")
 
-vim.keymap.set("n", "<leader>d", "<cmd>bd!<cr>", { silent = true })
+-- vim.keymap.set("n", "<leader>d", "<cmd>bd!<cr>", { silent = true })
