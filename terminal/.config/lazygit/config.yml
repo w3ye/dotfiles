@@ -1,8 +1,11 @@
 git:
-  branchLogCmd: "git log --color=always --abbrev-commit --decorate --date=relative --pretty=medium --oneline {{branchName}} --"
-  allBranchesLogCmd: "git log --all --color=always --abbrev-commit --decorate --date=relative --pretty=medium "
+  # branchLogCmd: "git log --color=always --abbrev-commit --decorate --date=relative --pretty=medium --oneline {{branchName}} --"
+  # allBranchesLogCmd: "git log --all --color=always --abbrev-commit --decorate --date=relative --pretty=medium "
   log:
     showGraph: "when-maximised"
+  paging:
+    colorArg: always
+    pager: delta --dark --paging=never
 os:
   editCommand: "nvim" # see 'Configuring File Editing' section
 customCommands:
