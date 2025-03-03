@@ -9,6 +9,20 @@ return {
       strategies = {
         chat = {
           adapter = "anthropic",
+          slash_commands = {
+            buffer = {
+              opts = {
+                -- provider = "mini_pick"
+                provider = "telescope"
+              }
+            },
+            file = {
+              opts = {
+                -- provider = "mini_pick"
+                provider = "telescope"
+              }
+            }
+          }
         },
         inline = {
           adapter = "anthropic",
