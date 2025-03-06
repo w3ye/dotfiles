@@ -1,15 +1,4 @@
-NVIM v0.10.0
-LuaJIT 2.1.0-beta3
+# 💤 LazyVim
 
-# Debugger setup
-## JavaScript Node
-To setup JavaScript debugger
-1. Clone the vs-code-js-debug repo
-```bash
-git clone https://github.com/microsoft/vscode-js-debug
-cd vscode-js-debug
-npm install --legacy-peer-deps
-npx gulp vsDebugServerBundle
-mv dist out
-```
-2. Add the path to `env.lua`
+A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
+Refer to the [documentation](https://lazyvim.github.io/installation) to get started.
