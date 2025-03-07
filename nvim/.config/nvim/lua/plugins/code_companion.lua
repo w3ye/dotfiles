@@ -13,13 +13,13 @@ return {
             buffer = {
               opts = {
                 -- provider = "mini_pick"
-                provider = "telescope",
+                -- provider = "telescope",
               },
             },
             file = {
               opts = {
                 -- provider = "mini_pick"
-                provider = "telescope",
+                -- provider = "telescope",
               },
             },
           },
