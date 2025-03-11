@@ -2,6 +2,7 @@ return {
   "folke/snacks.nvim",
   opts = function(_, opts)
     opts.picker.win.input.keys["<a-.>"] = { "toggle_hidden", mode = { "i", "n" } }
+    opts.scroll = { enabled = false }
     return opts
   end,
   keys = {
