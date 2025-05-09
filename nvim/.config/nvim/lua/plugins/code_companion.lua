@@ -30,10 +30,16 @@ return {
       },
       adapters = {
         anthropic = function()
-          return require("codecompanion.adapters").extend("anthropic", {})
+          return require("codecompanion.adapters").extend("anthropic", {
+            env = {
+              api_key = "cmd:op read op://personal/Anthropic/credential --no-newline",
+            },
+          })
         end,
         openai = function()
-          return require("codecompanion.adapters").extend("openai", {})
+          return require("codecompanion.adapters").extend("openai", {
+            api_key = "cmd:op read op://personal/OpenAI/credential --no-newline",
+          })
         end,
       },
     })

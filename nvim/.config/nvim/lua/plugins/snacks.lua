@@ -3,6 +3,10 @@ return {
   opts = function(_, opts)
     opts.picker.win.input.keys["<a-.>"] = { "toggle_hidden", mode = { "i", "n" } }
     opts.scroll = { enabled = false }
+    opts.grep = {
+      truncate_filenames = false,
+      show_full_path = true,
+    }
     return opts
   end,
   keys = {
@@ -23,7 +27,12 @@ return {
     },
     {
       "<leader>ff",
-      LazyVim.pick("files", { layout = { preset = "vscode" }, hidden = true }),
+      LazyVim.pick("files", { layout = { preset = "vscode" }, hidden = true, truncate = false }),
+      desc = "Find Files (cwd)",
+    },
+    {
+      "<leader>fF",
+      LazyVim.pick("files", { root = false, layout = { preset = "vscode" }, hidden = true, truncate = false }),
       desc = "Find Files",
     },
     {
