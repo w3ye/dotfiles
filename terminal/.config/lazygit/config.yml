@@ -16,4 +16,4 @@ customCommands:
         initialValue: ""
     command: git commit -m "{{index .PromptResponses 0}}" --no-verify
     context: "files"
-    subprocess: true
+    output: terminal
