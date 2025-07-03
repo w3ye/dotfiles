@@ -33,14 +33,15 @@ return {
           return require("codecompanion.adapters").extend("anthropic", {
             env = {
               api_key = "cmd:op read op://personal/Anthropic/credential --no-newline",
+              model = "claude-sonnet-4-20250514",
             },
           })
         end,
-        openai = function()
-          return require("codecompanion.adapters").extend("openai", {
-            api_key = "cmd:op read op://personal/OpenAI/credential --no-newline",
-          })
-        end,
+        -- openai = function()
+        --   return require("codecompanion.adapters").extend("openai", {
+        --     api_key = "cmd:op read op://personal/OpenAI/credential --no-newline",
+        --   })
+        -- end,
       },
     })
   end,
