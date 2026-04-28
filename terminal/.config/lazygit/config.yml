@@ -9,11 +9,19 @@ git:
 os:
   editCommand: "nvim" # see 'Configuring File Editing' section
 customCommands:
-  - key: "w"
-    prompts:
-      - type: "input"
-        title: "git commit skip hooks"
-        initialValue: ""
-    command: git commit -m "{{index .PromptResponses 0}}" --no-verify
+  # - key: "w"
+  #   prompts:
+  #     - type: "input"
+  #       title: "git commit skip hooks"
+  #       initialValue: ""
+  #   command: git commit -m "{{index .PromptResponses 0}}" --no-verify
+  #   context: "files"
+  #   output: terminal
+  - key: "p"
+    command: gt submit
+    context: "localBranches"
+    output: terminal
+  - key: "c"
+    command: gt modify -c
     context: "files"
     output: terminal
