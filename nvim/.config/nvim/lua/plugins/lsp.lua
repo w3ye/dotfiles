@@ -135,10 +135,15 @@ return {
           local function map(keys, fn, desc)
             vim.keymap.set("n", keys, fn, { buffer = ev.buf, desc = "LSP: " .. desc })
           end
-          map("gd", vim.lsp.buf.definition, "Definition")
+          -- Navigation via Snacks picker (LazyVim style); falls back to
+          -- vim.lsp.buf if the picker isn't available.
+          local has_snacks = pcall(require, "snacks")
+          map("gd", has_snacks and function() Snacks.picker.lsp_definitions() end or vim.lsp.buf.definition, "Definition")
+          map("gr", has_snacks and function() Snacks.picker.lsp_references() end or vim.lsp.buf.references, "References")
+          map("gI", has_snacks and function() Snacks.picker.lsp_implementations() end or vim.lsp.buf.implementation, "Implementation")
+          map("gy", has_snacks and function() Snacks.picker.lsp_type_definitions() end or vim.lsp.buf.type_definition, "Type definition")
           map("gD", vim.lsp.buf.declaration, "Declaration")
-          map("gt", vim.lsp.buf.type_definition, "Type definition")
-          map("<leader>rn", vim.lsp.buf.rename, "Rename")
+          map("<leader>cr", vim.lsp.buf.rename, "Rename")
           map("<leader>ca", vim.lsp.buf.code_action, "Code action")
           map("<leader>f", function()
             vim.lsp.buf.format({ async = true })
