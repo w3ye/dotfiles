@@ -28,7 +28,6 @@ return {
         "vim",
         "vimdoc",
         "json",
-        "jsonc",
         "yaml",
         "toml",
         "markdown",
