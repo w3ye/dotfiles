@@ -21,7 +21,6 @@ return {
       local servers = {
         ts_ls = {}, -- TypeScript / JavaScript
         gopls = {}, -- Go
-        sqls = {}, -- SQL (Go-based; sql-language-server/sqlls is broken on Node 18+)
         jdtls = {}, -- Java (basic; see note below)
         pyright = {}, -- Python
       }
