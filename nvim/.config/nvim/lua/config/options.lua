@@ -14,7 +14,7 @@ opt.smartcase = true -- ...unless the query has capitals
 
 opt.signcolumn = "yes" -- always show sign column (avoids text shift)
 opt.updatetime = 250 -- faster CursorHold / diagnostics
-opt.timeoutlen = 300 -- mapped sequence wait time
+opt.timeoutlen = 500 -- ms to wait for a mapped sequence to complete (default 1000)
 opt.splitright = true -- vertical splits open to the right
 opt.splitbelow = true -- horizontal splits open below
 
