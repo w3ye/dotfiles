@@ -5,6 +5,6 @@ sort_reverse = true
 
 [opener]
 edit = [
-	{ run = 'nvim "$@"', block = true },
-	{ run = 'vim "$@"', block = true },
+	{ run = 'nvim %s', block = true },
+	{ run = 'vim %s', block = true },
 ]
