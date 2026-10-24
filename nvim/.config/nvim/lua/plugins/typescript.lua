@@ -2,6 +2,9 @@ return {
   "neovim/nvim-lspconfig",
   opts = {
     servers = {
+      -- installed via Mason but never wanted: mason-lspconfig automatic_enable
+      -- would otherwise start it alongside vtsls
+      ts_ls = { enabled = false },
       vtsls = {
         filetypes = {
           "javascript",

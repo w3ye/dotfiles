@@ -1,7 +1,7 @@
 return {
   "pmizio/typescript-tools.nvim",
   dependencies = { "nvim-lua/plenary.nvim", "neovim/nvim-lspconfig" },
-  enabled = true,
+  enabled = false, -- superseded by vtsls (see typescript.lua); running both spawns a tsserver per app in monorepos
   opts = {
     settings = {
       tsserver_file_preferences = {
